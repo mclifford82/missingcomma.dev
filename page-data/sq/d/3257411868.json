@@ -1,0 +1,15 @@
+{
+    "data": {
+        "site": {
+            "siteMetadata": {
+                "author": {
+                    "name":"Martin Clifford",
+                    "summary":"who lives in southern Washington and builds random things."
+                },
+                "social": {
+                    "bluesky":"missingcomma.dev"
+                }
+            }
+        }
+    }
+}

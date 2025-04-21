@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "the-missing-comma",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "A place for Martin to post his thoughts about random whatnots.",
   "version": "0.1.0",
-  "author": "Martin Clifford <mclifford82@gmail.com>",
+  "author": "Martin Clifford",
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
@@ -29,7 +29,7 @@
     "gh-pages": "^6.3.0",
     "prettier": "^2.8.8"
   },
-  "homepage": "https://github.com/mclifford82/missingcomma.dev",
+  "homepage": "https://missingcomma.dev",
   "keywords": [
     "gatsby"
   ],
@@ -45,7 +45,6 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
     "deploy": "gatsby build && gh-pages -d public"
   }
 }

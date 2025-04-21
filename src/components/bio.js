@@ -16,10 +16,11 @@ const Bio = () => {
         siteMetadata {
           author {
             name
+            casualname
             summary
           }
           social {
-            twitter
+            bluesky
           }
         }
       }
@@ -28,6 +29,7 @@ const Bio = () => {
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
+  const casualname = data.site.siteMetadata?.casualname
   const social = data.site.siteMetadata?.social
 
   return (
@@ -40,14 +42,14 @@ const Bio = () => {
         width={50}
         height={50}
         quality={95}
-        alt="Profile picture"
+        alt="this is that guy"
       />
       {author?.name && (
         <p>
-          Written by <strong>{author.name}</strong> {author?.summary || null}
+          Hi, I'm <strong>{author.casualname}</strong>. {author?.summary || null}
           {` `}
-          <a href={`https://bsky.com/profile/${social?.bluesky || ``}`}>
-            You should follow them on Bluesky
+          <a href={`https://bsky.app/profile/${social?.bluesky || ``}`}>
+            You should follow him on Bluesky
           </a>
         </p>
       )}

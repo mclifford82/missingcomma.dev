@@ -53,11 +53,12 @@
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
   --color-primary: #005b99;
-  --color-text: #2e353f;
+  --color-text: #111111;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
   --color-heading-black: black;
   --color-accent: #d1dce5;
+  --colir-bg: #000000;
 }
 
 /* HTML elements */
@@ -79,15 +80,21 @@ body {
   font-family: var(--font-body);
   font-size: var(--fontSize-1);
   color: var(--color-text);
+  background-color: var(--color-accent);
 }
 
 footer {
   padding: var(--spacing-6) var(--spacing-0);
+  text-align: center;
+}
+
+footer .bio {
+  text-align: left;
 }
 
 hr {
-  background: var(--color-accent);
-  height: 1px;
+  background: var(--color-primary);
+  height: 2px;
   border: 0;
 }
 
@@ -171,7 +178,7 @@ ol {
   margin-right: var(--spacing-0);
   padding: var(--spacing-0);
   margin-bottom: var(--spacing-8);
-  list-style-position: outside;
+  list-style-position: inside;
   list-style-image: none;
 }
 
@@ -245,11 +252,11 @@ a:focus {
 }
 
 .global-wrapper[data-is-root-path="true"] .bio {
-  margin-bottom: var(--spacing-20);
+  margin-bottom: var(--spacing-12);
 }
 
 .global-header {
-  margin-bottom: var(--spacing-12);
+  margin-bottom: var(--spacing-6);
 }
 
 .main-heading {
@@ -259,7 +266,6 @@ a:focus {
 
 .post-list-item {
   margin-bottom: var(--spacing-8);
-  margin-top: var(--spacing-8);
 }
 
 .post-list-item p {
@@ -286,16 +292,16 @@ a:focus {
 
 .bio {
   display: flex;
-  margin-bottom: var(--spacing-16);
+  margin: 0px;
 }
 
 .bio p {
-  margin-bottom: var(--spacing-0);
+  color: var(--color-text);
+  margin: 0px;
 }
 
 .bio-avatar {
   margin-right: var(--spacing-4);
-  margin-bottom: var(--spacing-0);
   min-width: 50px;
   border-radius: 100%;
 }
@@ -307,6 +313,14 @@ a:focus {
 .blog-post header p {
   font-size: var(--fontSize-2);
   font-family: var(--font-heading);
+}
+
+.post-list-item small {
+  color: var(--color-text-light);
+}
+
+.blog-post img {
+  border: 2px solid var(--color-primary);
 }
 
 .blog-post-nav ul {

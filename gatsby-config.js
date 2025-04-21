@@ -9,15 +9,16 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `The Missing Comma`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Martin Clifford`,
+      casualname: `Martin`,
+      summary: `I live in southern Washington.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `This is my corner of the internet.`,
+    siteUrl: `https://missingcomma.dev`,
     social: {
-      twitter: `kylemathews`,
+      bluesky: `missingcomma.dev`,
     },
   },
   plugins: [

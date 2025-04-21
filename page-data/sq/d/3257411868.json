@@ -1,15 +1,1 @@
-{
-    "data": {
-        "site": {
-            "siteMetadata": {
-                "author": {
-                    "name":"Martin Clifford",
-                    "summary":"who lives in southern Washington and builds random things."
-                },
-                "social": {
-                    "bluesky":"missingcomma.dev"
-                }
-            }
-        }
-    }
-}
+{"data":{"site":{"siteMetadata":{"author":{"name":"Martin Clifford","summary":"who lives in southern Washington building things and playing hard Mario levels."},"social":{"twitter":null}}}}}

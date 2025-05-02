@@ -13,12 +13,13 @@ module.exports = {
     author: {
       name: `Martin Clifford`,
       casualname: `Martin`,
-      summary: `I live in southern Washington.`,
+      summary: `I live in southern Washington. I have two cats named after Better Call Saul characters: Lalo and Lydia. I play very hard Mario levels for fun. Oh yeah, and I code, too.`,
     },
-    description: `This is my corner of the internet.`,
+    description: `This is my corner of the internet. There are many like it, but this one is mine.`,
     siteUrl: `https://missingcomma.dev`,
     social: {
       bluesky: `missingcomma.dev`,
+      twitch: `twitch.tv/katmakes`,
     },
   },
   plugins: [
@@ -111,15 +112,15 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `Gatsby`,
+        name: `Missing Comma`,
+        short_name: `missingcomma.dev`,
         start_url: `/`,
         background_color: `#ffffff`,
         // This will impact how browsers show your PWA/website
         // https://css-tricks.com/meta-theme-color-and-trickery/
         // theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/profile-pic.png`, // This path is relative to the root of the site.
       },
     },
   ],

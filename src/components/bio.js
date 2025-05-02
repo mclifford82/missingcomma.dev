@@ -29,7 +29,6 @@ const Bio = () => {
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
-  const casualname = data.site.siteMetadata?.casualname
   const social = data.site.siteMetadata?.social
 
   return (
@@ -42,15 +41,17 @@ const Bio = () => {
         width={50}
         height={50}
         quality={95}
-        alt="this is that guy"
+        alt="Yoshi with human teeth. Nightmare fuel."
       />
       {author?.name && (
         <p>
-          Hi, I'm <strong>{author.casualname}</strong>. {author?.summary || null}
+          Hi, I'm <strong>{author.casualname}</strong>. {author?.summary || null} You can follow me on
           {` `}
-          <a href={`https://bsky.app/profile/${social?.bluesky || ``}`}>
-            You should follow him on Bluesky
+          <a href={`https://bsky.app/profile/${social?.bluesky || ``}`} target="_blank">
+            Bluesky
           </a>
+          {` `}
+          if you like :)
         </p>
       )}
     </div>
